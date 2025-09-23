@@ -6,7 +6,8 @@ from browser_use import Agent, ChatGoogle
 
 # Load environment variables from .env
 load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = os.getenv("AIzaSyDnsQ_EaKER5TghXoh8mpkoy_tXZoaYZ58
+")
 
 if not GEMINI_API_KEY:
     print("ERROR: Please add GEMINI_API_KEY to your .env file.")
